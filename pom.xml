@@ -11,6 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.minbox.framework</groupId>
     <artifactId>minbox-bom</artifactId>
+    <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <version>1.0.0.RELEASE</version>
     <description>
