@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p ~/.gnupg/
           printf "$MAVEN_GPG_PRIVATE_KEY" | base64 --decode > ~/.gnupg/private.key
-          gpg --import ~/.gnupg/private.key
+          gpg --batch --import ~/.gnupg/private.key
         env:
           MAVEN_GPG_PRIVATE_KEY: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
       # Install Java 1.8
