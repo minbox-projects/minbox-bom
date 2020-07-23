@@ -257,9 +257,9 @@
                             </goals>
                             <configuration>
                                 <gpgArguments>
-                                    <!--<arg>&#45;&#45;pinentry-mode</arg>
-                                    <arg>loopback</arg>-->
-                                    <arg>--batch</arg>
+                                    <arg>--no-tty</arg>
+                                    <arg>--pinentry-mode</arg>
+                                    <arg>loopback</arg>
                                 </gpgArguments>
                             </configuration>
                         </execution>
