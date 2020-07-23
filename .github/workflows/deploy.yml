@@ -20,6 +20,13 @@ jobs:
       # Checkout source code
       - name: Checkout source code
         uses: actions/checkout@v2
+      - name: Configure GPG Key
+        run: |
+          mkdir -p ~/.gnupg/
+          printf "$MAVEN_GPG_PRIVATE_KEY" | base64 --decode > ~/.gnupg/private.key
+          gpg --import ~/.gnupg/private.key
+        env:
+          MAVEN_GPG_PRIVATE_KEY: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
       # Install Java 1.8
       - name: Install Java
         uses: actions/setup-java@master
@@ -28,7 +35,7 @@ jobs:
           server-id: hengyu
           server-username: MAVEN_USERNAME # env variable for username in deploy
           server-password: MAVEN_CENTRAL_TOKEN # env variable for token in deploy
-          gpg-private-key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }} # Value of the GPG private key to import
+          #gpg-private-key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }} # Value of the GPG private key to import
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
       - name: Build with Maven
         run: mvn -B package --file pom.xml
