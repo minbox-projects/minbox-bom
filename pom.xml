@@ -13,6 +13,7 @@
     <artifactId>minbox-bom</artifactId>
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
+    <url>https://github.com/minbox-projects/minbox-bom</url>
     <version>1.0.1-SNAPSHOT</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
@@ -54,7 +55,7 @@
             <email>jnyuqy@gmail.com</email>
             <url>https://blog.yuqiyu.com</url>
             <organization>minbox-projects</organization>
-            <organizationUrl>https://gitee.com/minbox-projects</organizationUrl>
+            <organizationUrl>https://github.com/minbox-projects</organizationUrl>
         </developer>
     </developers>
     <licenses>
