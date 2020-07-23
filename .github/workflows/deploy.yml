@@ -30,7 +30,7 @@ jobs:
         run: mvn -B package --file pom.xml
       # Publish to Apache Maven Central
       - name: Publish to Apache Maven Central
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        run: mvn deploy
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_CENTER_USER_NAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTER_PASSWORD }}
