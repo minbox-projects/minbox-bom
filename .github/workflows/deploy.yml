@@ -41,7 +41,7 @@ jobs:
         run: mvn -B package --file pom.xml
       # Publish to Apache Maven Central
       - name: Publish to Apache Maven Central
-        users: samuelmeuli/action-maven-publish@v1
+        uses: samuelmeuli/action-maven-publish@v1
         with:
           gpg_private_key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
           gpg_passphrase: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
