@@ -18,6 +18,7 @@
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
+
     <properties>
         <minbox.version>1.0.5.RELEASE</minbox.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
