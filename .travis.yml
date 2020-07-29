@@ -1,0 +1,19 @@
+language: java
+jdk:
+  - openjdk8
+cache:
+  directories:
+    - $HOME/.m2
+
+# deploy to maven central
+deploy:
+  provider: script
+  script: mvn clean deploy --settings .travis/settings.xml -DskipTests=true --update-snapshots
+
+# notification emails
+notifications:
+  email:
+    recipients:
+      - apiboot@minbox.org
+      on_success: change
+      on_failure: always
