@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.minbox.framework</groupId>
         <artifactId>minbox-build</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>1.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -18,7 +18,6 @@
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
-
     <properties>
         <minbox.version>1.0.5.RELEASE</minbox.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
