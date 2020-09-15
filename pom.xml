@@ -20,6 +20,11 @@
     </description>
     <properties>
         <minbox.version>1.0.7-SNAPSHOT</minbox.version>
+        <spring.version>5.2.8.RELEASE</spring.version>
+        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
+        <feign-bom.version>11.0</feign-bom.version>
+        <jackson-bom.version>2.11.2</jackson-bom.version>
+        <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
@@ -29,12 +34,10 @@
         <minbox-oss.version>1.0-SNAPSHOT</minbox-oss.version>
         <minbox-logging.version>1.0.5.RELEASE</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
-        <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
         <mybatis-enhance.version>1.1.3.RELEASE</mybatis-enhance.version>
         <mybatis.pageable.core.version>1.0.7.RELEASE</mybatis.pageable.core.version>
-        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
-        <spring.version>5.2.8.RELEASE</spring.version>
-        <security.oauth2.version>2.3.8.RELEASE</security.oauth2.version>
+        <security.oauth2.version>2.5.0.RELEASE</security.oauth2.version>
+        <spring-security-web.version>5.4.0</spring-security-web.version>
         <spring.security.jwt.version>1.1.0.RELEASE</spring.security.jwt.version>
         <fastjson.version>1.2.62</fastjson.version>
         <aliyun.oss.version>2.8.3</aliyun.oss.version>
@@ -51,8 +54,10 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <caffeine.version>2.8.5</caffeine.version>
         <redisson.version>3.13.3</redisson.version>
-        <feign-bom.version>11.0</feign-bom.version>
-        <jackson-bom.version>2.11.2</jackson-bom.version>
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+        <transmittable-thread-local.version>2.11.5</transmittable-thread-local.version>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
+        <lombok.version>1.18.12</lombok.version>
     </properties>
     <developers>
         <developer>
@@ -72,12 +77,20 @@
     </licenses>
     <dependencyManagement>
         <dependencies>
+            <!--Bom list-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
                 <version>${spring.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
@@ -173,13 +186,6 @@
 
             <!--Spring Projects-->
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
                 <groupId>org.springframework.security.oauth</groupId>
                 <artifactId>spring-security-oauth2</artifactId>
                 <version>${security.oauth2.version}</version>
@@ -188,6 +194,11 @@
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-jwt</artifactId>
                 <version>${spring.security.jwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-web</artifactId>
+                <version>${spring-security-web.version}</version>
             </dependency>
 
             <!--Others-->
@@ -271,6 +282,26 @@
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson</artifactId>
                 <version>${redisson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>${transmittable-thread-local.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
