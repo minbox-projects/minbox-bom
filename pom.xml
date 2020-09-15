@@ -22,6 +22,7 @@
         <minbox.version>1.0.7-SNAPSHOT</minbox.version>
         <spring.version>5.2.8.RELEASE</spring.version>
         <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
+        <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.2</jackson-bom.version>
         <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
@@ -89,6 +90,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-commons-dependencies</artifactId>
+                <version>${spring-cloud-commons-dependencies.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -305,6 +313,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>yuqiyu-snapshots</id>
+            <url>http://maven.yuqiyu.com/repository/maven-snapshots/</url>
+        </repository>
+    </repositories>
     <build>
         <pluginManagement>
             <plugins>
