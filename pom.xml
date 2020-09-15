@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.minbox.framework</groupId>
         <artifactId>minbox-build</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.2.RELEASE</version>
         <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -14,12 +14,12 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2.RELEASE</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
     <properties>
-        <minbox.version>1.0.6-SNAPSHOT</minbox.version>
+        <minbox.version>1.0.6.RELEASE</minbox.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
