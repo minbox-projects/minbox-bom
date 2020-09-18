@@ -26,6 +26,7 @@
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.2</jackson-bom.version>
         <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
+        <log4j-bom.version>2.13.3</log4j-bom.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
@@ -135,6 +136,14 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-bom</artifactId>
+                <version>${log4j-bom.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
             <dependency>
                 <groupId>org.minbox.framework</groupId>
                 <artifactId>minbox-oauth</artifactId>
