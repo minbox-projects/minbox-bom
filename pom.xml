@@ -20,8 +20,8 @@
     </description>
     <properties>
         <minbox.version>1.0.7-SNAPSHOT</minbox.version>
-        <spring.version>5.2.8.RELEASE</spring.version>
-        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
+        <spring.version>5.2.9.RELEASE</spring.version>
+        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.2</jackson-bom.version>
