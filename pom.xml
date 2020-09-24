@@ -60,6 +60,9 @@
         <transmittable-thread-local.version>2.11.5</transmittable-thread-local.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <lombok.version>1.18.12</lombok.version>
+        <mongodb-driver-sync.version>4.1.0</mongodb-driver-sync.version>
+        <elasticsearch.version>7.9.1</elasticsearch.version>
+        <lucene.version>8.6.2</lucene.version>
     </properties>
     <developers>
         <developer>
@@ -319,6 +322,26 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-sync</artifactId>
+                <version>${mongodb-driver-sync.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.lucene</groupId>
+                <artifactId>lucene-core</artifactId>
+                <version>${lucene.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
