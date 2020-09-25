@@ -21,7 +21,6 @@
     <properties>
         <minbox.version>1.0.7-SNAPSHOT</minbox.version>
         <spring.version>5.2.9.RELEASE</spring.version>
-        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.2</jackson-bom.version>
@@ -61,7 +60,7 @@
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <lombok.version>1.18.12</lombok.version>
         <mongodb-driver-sync.version>4.1.0</mongodb-driver-sync.version>
-        <elasticsearch.version>7.9.1</elasticsearch.version>
+        <elasticsearch.version>7.9.2</elasticsearch.version>
         <lucene.version>8.6.2</lucene.version>
     </properties>
     <developers>
@@ -89,13 +88,6 @@
                 <version>${spring.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -335,6 +327,11 @@
             </dependency>
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
                 <version>${elasticsearch.version}</version>
             </dependency>
@@ -343,6 +340,8 @@
                 <artifactId>lucene-core</artifactId>
                 <version>${lucene.version}</version>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
     <repositories>
