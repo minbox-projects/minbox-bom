@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.minbox.framework</groupId>
         <artifactId>minbox-build</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.3.RELEASE</version>
         <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -14,16 +14,16 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3.RELEASE</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
     <properties>
-        <minbox.version>1.0.7-SNAPSHOT</minbox.version>
+        <minbox.version>1.0.7.RELEASE</minbox.version>
         <spring.version>5.2.9.RELEASE</spring.version>
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
-        <jackson-bom.version>2.11.2</jackson-bom.version>
+        <jackson-bom.version>2.11.3</jackson-bom.version>
         <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
         <log4j-bom.version>2.13.3</log4j-bom.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
