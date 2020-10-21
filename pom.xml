@@ -21,6 +21,7 @@
     <properties>
         <minbox.version>1.0.8-SNAPSHOT</minbox.version>
         <spring.version>5.2.9.RELEASE</spring.version>
+        <spring.security.version>5.4.1</spring.security.version>
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.3</jackson-bom.version>
@@ -86,6 +87,13 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
                 <version>${spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-bom</artifactId>
+                <version>${spring.security.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
