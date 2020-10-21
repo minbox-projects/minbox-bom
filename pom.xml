@@ -24,14 +24,14 @@
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
         <jackson-bom.version>2.11.3</jackson-bom.version>
-        <message-pipe-bom.version>1.0.3.RELEASE</message-pipe-bom.version>
+        <message-pipe-bom.version>1.0.4-SNAPSHOT</message-pipe-bom.version>
         <log4j-bom.version>2.13.3</log4j-bom.version>
         <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
         <minbox-resource-load.version>1.0.0.RELEASE</minbox-resource-load.version>
-        <minbox-datasource-switch.version>1.0.0.RELEASE</minbox-datasource-switch.version>
+        <minbox-datasource-switch.version>1.0.1.RELEASE</minbox-datasource-switch.version>
         <minbox-oss.version>1.0-SNAPSHOT</minbox-oss.version>
         <minbox-logging.version>1.0.5.RELEASE</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
