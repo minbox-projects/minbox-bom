@@ -31,7 +31,7 @@
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
         <minbox-resource-load.version>1.0.0.RELEASE</minbox-resource-load.version>
-        <minbox-datasource-switch.version>1.0.1.RELEASE</minbox-datasource-switch.version>
+        <minbox-datasource-switch.version>1.0.2-SNAPSHOT</minbox-datasource-switch.version>
         <minbox-oss.version>1.0-SNAPSHOT</minbox-oss.version>
         <minbox-logging.version>1.0.5.RELEASE</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
