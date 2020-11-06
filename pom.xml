@@ -38,6 +38,7 @@
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
         <mybatis-enhance.version>1.1.3.RELEASE</mybatis-enhance.version>
         <mybatis.pageable.core.version>1.0.7.RELEASE</mybatis.pageable.core.version>
+        <code.builder.core.version>1.0.5.RELEASE</code.builder.core.version>
         <security.oauth2.version>2.5.0.RELEASE</security.oauth2.version>
         <spring-security-web.version>5.4.0</spring-security-web.version>
         <spring.security.jwt.version>1.1.0.RELEASE</spring.security.jwt.version>
@@ -46,7 +47,8 @@
         <aliyun.sdk.core.version>4.2.0</aliyun.sdk.core.version>
         <aliyun.sdk.dysmsapi.version>1.1.0</aliyun.sdk.dysmsapi.version>
         <aliyun-java-sdk-dm.version>3.3.1</aliyun-java-sdk-dm.version>
-        <nacos.version>1.3.1</nacos.version>
+        <nacos.version>1.4.0</nacos.version>
+        <nacos.config.version>0.2.7</nacos.config.version>
         <druid.version>1.1.21</druid.version>
         <guava.version>29.0-jre</guava.version>
         <swagger.version>2.9.2</swagger.version>
@@ -63,6 +65,13 @@
         <mongodb-driver-sync.version>4.1.0</mongodb-driver-sync.version>
         <elasticsearch.version>7.9.2</elasticsearch.version>
         <lucene.version>8.6.2</lucene.version>
+        <reflections.version>0.9.11</reflections.version>
+        <maven-plugin-api.version>3.6.1</maven-plugin-api.version>
+        <mysema.codegen.version>0.6.8</mysema.codegen.version>
+        <maven-plugin-annotations.version>3.6.0</maven-plugin-annotations.version>
+        <maven-plugin-plugin.version>3.6.0</maven-plugin-plugin.version>
+        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+        <jpush-client.version>3.3.11</jpush-client.version>
     </properties>
     <developers>
         <developer>
@@ -188,6 +197,11 @@
                 <version>${mybatis.pageable.core.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.gitee.hengboy</groupId>
+                <artifactId>code-builder-core</artifactId>
+                <version>${code.builder.core.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.minbox.framework</groupId>
                 <artifactId>minbox-datasource-switch</artifactId>
                 <version>${minbox-datasource-switch.version}</version>
@@ -232,6 +246,11 @@
                 <artifactId>nacos-all</artifactId>
                 <version>${nacos.version}</version>
                 <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-starter</artifactId>
+                <version>${nacos.config.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -348,8 +367,36 @@
                 <artifactId>lucene-core</artifactId>
                 <version>${lucene.version}</version>
             </dependency>
-
-
+            <dependency>
+                <groupId>org.reflections</groupId>
+                <artifactId>reflections</artifactId>
+                <version>${reflections.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-plugin-api</artifactId>
+                <version>${maven-plugin-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.maven.plugin-tools</groupId>
+                <artifactId>maven-plugin-annotations</artifactId>
+                <version>${maven-plugin-annotations.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.jpush.api</groupId>
+                <artifactId>jpush-client</artifactId>
+                <version>${jpush-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mysema.codegen</groupId>
+                <artifactId>codegen</artifactId>
+                <version>${mysema.codegen.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>${javax-annotation-api.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <repositories>
