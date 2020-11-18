@@ -72,6 +72,8 @@
         <maven-plugin-plugin.version>3.6.0</maven-plugin-plugin.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <jpush-client.version>3.3.11</jpush-client.version>
+        <jsch.version>0.1.54</jsch.version>
+        <ssh-agent.version>1.0-SNAPSHOT</ssh-agent.version>
     </properties>
     <developers>
         <developer>
@@ -396,6 +398,16 @@
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
                 <version>${javax-annotation-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jcraft</groupId>
+                <artifactId>jsch</artifactId>
+                <version>${jsch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>ssh-agent</artifactId>
+                <version>${ssh-agent.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
