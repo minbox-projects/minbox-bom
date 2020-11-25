@@ -29,7 +29,7 @@
         <jackson-bom.version>2.11.3</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
         <log4j-bom.version>2.13.3</log4j-bom.version>
-        <minbox-oauth.version>1.0.0.RELEASE</minbox-oauth.version>
+        <minbox-oauth.version>1.0.1-SNAPSHOT</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
