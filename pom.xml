@@ -20,16 +20,16 @@
     </description>
     <properties>
         <minbox.version>1.0.8</minbox.version>
-        <spring.version>5.3.1</spring.version>
-        <spring-boot.version>2.4.0</spring-boot.version>
-        <spring.security.version>5.4.1</spring.security.version>
-        <spring-data-bom.version>2020.0.1</spring-data-bom.version>
+        <spring.version>5.3.6</spring.version>
+        <spring-boot.version>2.4.5</spring-boot.version>
+        <spring.security.version>5.4.6</spring.security.version>
+        <spring-data-bom.version>2021.0.0</spring-data-bom.version>
         <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.0</feign-bom.version>
-        <jackson-bom.version>2.11.3</jackson-bom.version>
+        <jackson-bom.version>2.12.3</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
-        <log4j-bom.version>2.13.3</log4j-bom.version>
-        <minbox-oauth.version>1.0.1-SNAPSHOT</minbox-oauth.version>
+        <log4j-bom.version>2.14.1</log4j-bom.version>
+        <minbox-oauth.version>1.0.1</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
@@ -38,34 +38,33 @@
         <minbox-oss.version>1.0.0</minbox-oss.version>
         <minbox-logging.version>1.0.6</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
-        <mybatis-enhance.version>1.1.3.RELEASE</mybatis-enhance.version>
+        <mybatis-enhance.version>1.1.4</mybatis-enhance.version>
         <mybatis.pageable.core.version>1.0.7.RELEASE</mybatis.pageable.core.version>
         <code.builder.core.version>1.0.5.RELEASE</code.builder.core.version>
         <security.oauth2.version>2.5.0.RELEASE</security.oauth2.version>
         <spring-security-web.version>5.4.0</spring-security-web.version>
         <spring.security.jwt.version>1.1.0.RELEASE</spring.security.jwt.version>
-        <fastjson.version>1.2.62</fastjson.version>
+        <fastjson.version>1.2.76</fastjson.version>
         <aliyun.oss.version>2.8.3</aliyun.oss.version>
         <aliyun.sdk.core.version>4.2.0</aliyun.sdk.core.version>
         <aliyun.sdk.dysmsapi.version>1.1.0</aliyun.sdk.dysmsapi.version>
         <aliyun-java-sdk-dm.version>3.3.1</aliyun-java-sdk-dm.version>
         <nacos.version>1.4.0</nacos.version>
         <nacos.config.version>0.2.7</nacos.config.version>
-        <druid.version>1.1.21</druid.version>
-        <guava.version>29.0-jre</guava.version>
+        <druid.version>1.2.6</druid.version>
+        <guava.version>30.1.1-jre</guava.version>
         <swagger.version>2.9.2</swagger.version>
         <quartz.version>2.3.2</quartz.version>
-        <mongo-driver-sync.version>4.0.4</mongo-driver-sync.version>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-        <caffeine.version>2.8.5</caffeine.version>
-        <redisson.version>3.15.3</redisson.version>
+        <caffeine.version>3.0.1</caffeine.version>
+        <redisson.version>3.15.4</redisson.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <transmittable-thread-local.version>2.11.5</transmittable-thread-local.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
-        <lombok.version>1.18.12</lombok.version>
-        <mongodb-driver-sync.version>4.1.0</mongodb-driver-sync.version>
-        <elasticsearch.version>7.9.2</elasticsearch.version>
+        <lombok.version>1.18.20</lombok.version>
+        <mongodb-driver-sync.version>4.2.3</mongodb-driver-sync.version>
+        <elasticsearch.version>7.12.0</elasticsearch.version>
         <lucene.version>8.6.2</lucene.version>
         <reflections.version>0.9.11</reflections.version>
         <maven-plugin-api.version>3.6.1</maven-plugin-api.version>
@@ -78,7 +77,7 @@
         <ssh-agent.version>1.0.0</ssh-agent.version>
         <commons-lang3.version>3.10</commons-lang3.version>
         <slf4j.version>1.7.30</slf4j.version>
-        <HikariCP.version>3.4.5</HikariCP.version>
+        <HikariCP.version>4.0.3</HikariCP.version>
     </properties>
     <developers>
         <developer>
@@ -357,11 +356,6 @@
                 <groupId>com.aliyun</groupId>
                 <artifactId>aliyun-java-sdk-dm</artifactId>
                 <version>${aliyun-java-sdk-dm.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-sync</artifactId>
-                <version>${mongo-driver-sync.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.ben-manes.caffeine</groupId>
