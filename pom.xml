@@ -14,7 +14,7 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
