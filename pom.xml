@@ -222,29 +222,10 @@
                 <artifactId>minbox-ratelimiter</artifactId>
                 <version>${minbox-ratelimiter.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-core</artifactId>
-                <version>${minbox-logging.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-admin</artifactId>
-                <version>${minbox-logging.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-admin-ui</artifactId>
-                <version>${minbox-logging.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-client</artifactId>
-                <version>${minbox-logging.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-spring-context</artifactId>
+                <artifactId>minbox-logging-dependencies</artifactId>
                 <version>${minbox-logging.version}</version>
             </dependency>
 
