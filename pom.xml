@@ -29,7 +29,7 @@
         <jackson-bom.version>2.12.3</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
         <log4j-bom.version>2.14.1</log4j-bom.version>
-        <minbox-oauth.version>1.0.1</minbox-oauth.version>
+        <minbox-oauth.version>1.0.2-SNAPSHOT</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
@@ -225,7 +225,27 @@
 
             <dependency>
                 <groupId>org.minbox.framework</groupId>
-                <artifactId>minbox-logging-dependencies</artifactId>
+                <artifactId>minbox-logging-core</artifactId>
+                <version>${minbox-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>minbox-logging-admin</artifactId>
+                <version>${minbox-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>minbox-logging-admin-ui</artifactId>
+                <version>${minbox-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>minbox-logging-client</artifactId>
+                <version>${minbox-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>minbox-logging-spring-context</artifactId>
                 <version>${minbox-logging.version}</version>
             </dependency>
 
