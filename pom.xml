@@ -39,7 +39,7 @@
         <minbox-logging.version>1.0.6</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
         <mybatis-enhance.version>1.1.4</mybatis-enhance.version>
-        <mybatis.pageable.core.version>1.0.7.RELEASE</mybatis.pageable.core.version>
+        <mybatis-pageable.version>1.0.8-SNAPSHOT</mybatis-pageable.version>
         <code.builder.core.version>1.0.5.RELEASE</code.builder.core.version>
         <security.oauth2.version>2.5.0.RELEASE</security.oauth2.version>
         <spring-security-web.version>5.4.0</spring-security-web.version>
@@ -198,9 +198,9 @@
                 <version>${mybatis-enhance.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.gitee.hengboy</groupId>
-                <artifactId>mybatis-pageable-core</artifactId>
-                <version>${mybatis.pageable.core.version}</version>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>mybatis-pageable</artifactId>
+                <version>${mybatis-pageable.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.gitee.hengboy</groupId>
