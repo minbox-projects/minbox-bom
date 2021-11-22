@@ -14,7 +14,7 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
@@ -29,7 +29,7 @@
         <jackson-bom.version>2.12.3</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
         <log4j-bom.version>2.14.1</log4j-bom.version>
-        <minbox-oauth.version>1.0.2-SNAPSHOT</minbox-oauth.version>
+        <minbox-oauth.version>1.0.2</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
         <minbox-ratelimiter.version>1.0.0.RELEASE</minbox-ratelimiter.version>
@@ -39,7 +39,7 @@
         <minbox-logging.version>1.0.6</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
         <mybatis-enhance.version>1.1.4</mybatis-enhance.version>
-        <mybatis-pageable.version>1.0.8-SNAPSHOT</mybatis-pageable.version>
+        <mybatis-pageable.version>1.0.8</mybatis-pageable.version>
         <code.builder.core.version>1.0.5.RELEASE</code.builder.core.version>
         <security.oauth2.version>2.5.0.RELEASE</security.oauth2.version>
         <spring-security-web.version>5.4.0</spring-security-web.version>
@@ -74,7 +74,7 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <jpush-client.version>3.3.11</jpush-client.version>
         <jsch.version>0.1.55</jsch.version>
-        <ssh-agent.version>1.0.1-SNAPSHOT</ssh-agent.version>
+        <ssh-agent.version>1.0.1</ssh-agent.version>
         <commons-lang3.version>3.10</commons-lang3.version>
         <slf4j.version>1.7.30</slf4j.version>
         <HikariCP.version>4.0.3</HikariCP.version>
