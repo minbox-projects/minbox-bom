@@ -14,7 +14,7 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.7</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
@@ -28,7 +28,7 @@
         <feign-bom.version>11.8</feign-bom.version>
         <jackson-bom.version>2.13.1</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
-        <grace-bom.version>1.0-SNAPSHOT</grace-bom.version>
+        <grace-bom.version>1.0.0</grace-bom.version>
         <log4j-bom.version>2.17.1</log4j-bom.version>
         <minbox-oauth.version>1.0.2</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
