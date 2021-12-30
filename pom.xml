@@ -14,21 +14,22 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.6</version>
+    <version>1.0.7-SNAPSHOT</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
     <properties>
         <minbox.version>1.0.8</minbox.version>
-        <spring.version>5.3.13</spring.version>
-        <spring-boot.version>2.6.0</spring-boot.version>
+        <spring.version>5.3.14</spring.version>
+        <spring-boot.version>2.6.2</spring-boot.version>
         <spring.security.version>5.4.6</spring.security.version>
         <spring-data-bom.version>2021.0.0</spring-data-bom.version>
-        <spring-cloud-commons-dependencies.version>2.2.5.RELEASE</spring-cloud-commons-dependencies.version>
-        <feign-bom.version>11.0</feign-bom.version>
-        <jackson-bom.version>2.13.0</jackson-bom.version>
+        <spring-cloud-commons-dependencies.version>3.1.0</spring-cloud-commons-dependencies.version>
+        <feign-bom.version>11.8</feign-bom.version>
+        <jackson-bom.version>2.13.1</jackson-bom.version>
         <message-pipe-bom.version>1.0.4</message-pipe-bom.version>
-        <log4j-bom.version>2.14.1</log4j-bom.version>
+        <grace-bom.version>1.0-SNAPSHOT</grace-bom.version>
+        <log4j-bom.version>2.17.1</log4j-bom.version>
         <minbox-oauth.version>1.0.2</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
         <minbox-sequence.version>1.0.0.RELEASE</minbox-sequence.version>
@@ -151,6 +152,13 @@
                 <groupId>org.minbox.framework</groupId>
                 <artifactId>message-pipe-bom</artifactId>
                 <version>${message-pipe-bom.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.minbox.framework</groupId>
+                <artifactId>grace-bom</artifactId>
+                <version>${grace-bom.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
