@@ -14,7 +14,7 @@
     <name>MinBox Bom</name>
     <packaging>pom</packaging>
     <url>https://github.com/minbox-projects/minbox-bom</url>
-    <version>1.0.8</version>
+    <version>1.0.9-SNAPSHOT</version>
     <description>
         Provide solidified version definitions of all components of "minbox-projects"
     </description>
@@ -37,7 +37,7 @@
         <minbox-resource-load.version>1.0.0.RELEASE</minbox-resource-load.version>
         <minbox-datasource-switch.version>1.0.2</minbox-datasource-switch.version>
         <minbox-oss.version>1.0.0</minbox-oss.version>
-        <minbox-logging.version>1.0.6</minbox-logging.version>
+        <minbox-logging.version>2.0.0</minbox-logging.version>
         <minbox-mongo-client-settings.version>1.0.0.RELEASE</minbox-mongo-client-settings.version>
         <mybatis-enhance.version>1.1.4</mybatis-enhance.version>
         <mybatis-pageable.version>1.0.8</mybatis-pageable.version>
