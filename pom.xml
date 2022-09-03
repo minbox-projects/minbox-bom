@@ -20,15 +20,15 @@
     </description>
     <properties>
         <minbox.version>1.0.8</minbox.version>
-        <spring.version>5.3.18</spring.version>
-        <spring-boot.version>2.6.6</spring-boot.version>
+        <spring.version>5.3.22</spring.version>
+        <spring-boot.version>2.7.3</spring-boot.version>
         <spring.security.version>5.4.6</spring.security.version>
         <spring-data-bom.version>2021.0.0</spring-data-bom.version>
         <spring-cloud-commons-dependencies.version>3.1.0</spring-cloud-commons-dependencies.version>
         <feign-bom.version>11.8</feign-bom.version>
         <jackson-bom.version>2.13.2</jackson-bom.version>
         <message-pipe-bom.version>1.0.6</message-pipe-bom.version>
-        <grace-bom.version>1.0.0</grace-bom.version>
+        <grace-bom.version>1.0.1</grace-bom.version>
         <log4j-bom.version>2.17.2</log4j-bom.version>
         <minbox-oauth.version>1.0.2</minbox-oauth.version>
         <minbox-security.version>1.0.0.RELEASE</minbox-security.version>
@@ -46,22 +46,23 @@
         <spring-security-web.version>5.4.0</spring-security-web.version>
         <spring.security.jwt.version>1.1.0.RELEASE</spring.security.jwt.version>
         <fastjson.version>1.2.80</fastjson.version>
+        <fastjson2.version>2.0.12</fastjson2.version>
         <aliyun.oss.version>2.8.3</aliyun.oss.version>
         <aliyun.sdk.core.version>4.2.0</aliyun.sdk.core.version>
         <aliyun.sdk.dysmsapi.version>1.1.0</aliyun.sdk.dysmsapi.version>
         <aliyun-java-sdk-dm.version>3.3.1</aliyun-java-sdk-dm.version>
         <nacos.version>1.4.0</nacos.version>
         <nacos.config.version>0.2.7</nacos.config.version>
-        <druid.version>1.2.6</druid.version>
+        <druid.version>1.2.11</druid.version>
         <guava.version>31.1-jre</guava.version>
         <swagger.version>2.9.2</swagger.version>
         <quartz.version>2.3.2</quartz.version>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-        <caffeine.version>3.0.1</caffeine.version>
+        <caffeine.version>3.1.1</caffeine.version>
         <redisson.version>3.15.4</redisson.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <transmittable-thread-local.version>2.12.6</transmittable-thread-local.version>
+        <transmittable-thread-local.version>2.14.0</transmittable-thread-local.version>
         <slf4j-api.version>1.7.36</slf4j-api.version>
         <lombok.version>1.18.20</lombok.version>
         <mongodb-driver-sync.version>4.2.3</mongodb-driver-sync.version>
@@ -75,7 +76,7 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <jpush-client.version>3.3.11</jpush-client.version>
         <jsch.version>0.1.55</jsch.version>
-        <ssh-agent.version>1.0.1</ssh-agent.version>
+        <ssh-agent.version>1.0.2</ssh-agent.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <slf4j.version>1.7.36</slf4j.version>
         <HikariCP.version>5.0.1</HikariCP.version>
@@ -299,6 +300,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson2.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.nacos</groupId>
